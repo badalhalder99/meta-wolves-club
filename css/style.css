@@ -1,0 +1,652 @@
+/*** 
+
+====================================================================
+  Google fonts
+====================================================================
+
+***/
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@200;300&family=Syncopate:wght@400;700&display=swap");
+
+/***
+====================================================================
+  General css style
+====================================================================
+
+***/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Syncopate", sans-serif;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  transition-duration: 500ms;
+  outline: none;
+  color: #c289e1;
+}
+a:hover {
+  color: #9d41cf;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  line-height: 1.9;
+  color: #222;
+  font-size: 15px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+/*.....................Normal style start.............................*/
+
+/*.....................fixed slider section.............................*/
+.fixed-slider-section {
+  height: 650px;
+  background: url(../img/slider.jpg) no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+.fixed-slider-section .fixed-slider-wrapper h1 {
+  margin-top: 180px;
+  line-height: 77px;
+  font-weight: 800;
+  font-size: 82px;
+  color: white;
+  font-family: "Syncopate", sans-serif;
+}
+.fixed_button_wrap {
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.button_discord {
+  background: #ff06aa;
+  font-size: 22px;
+  border-radius: 55px;
+  color: white;
+  padding: 8px 16px;
+  margin-right: 20px;
+}
+.button_discord2 {
+  background: #ff06aa;
+  font-size: 20px;
+  border-radius: 55px;
+  color: white;
+  padding: 8px 16px;
+}
+.button_discord:hover,
+.button_discord2:hover {
+  color: white;
+  box-shadow: 6px 19px 105px 23px rgba(255, 6, 170, 0.75);
+}
+/*.....................welcome section.............................*/
+.welcome-section {
+  background: #1d1c54;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.welcome-section .welcome-wrapper center h1 {
+  line-height: 61px;
+  font-weight: 800;
+  font-size: 51px;
+  color: white;
+  font-family: "Syncopate", sans-serif;
+}
+.welcome-section .welcome-wrapper center p {
+  color: white;
+  margin-top: 44px;
+  margin-bottom: 30px;
+}
+.welcome-section .welcome-wrapper center a.button_discord {
+  background: #fd9535;
+  font-size: 16px;
+  border-radius: 55px;
+  color: white;
+  padding: 10px 11px;
+  margin-bottom: 20px;
+}
+.welcome-section .welcome-wrapper center a:hover {
+  box-shadow: 0px 0px 34px 0px rgba(253, 149, 53, 1);
+}
+.welcome-section .welcome-wrapper center hr {
+  background: #7165ff;
+  width: 167px;
+  height: 3px;
+  margin-top: -5px;
+}
+.welcome-section .welcome-wrapper center ul li a {
+  color: white;
+}
+.welcome-section .welcome-wrapper center ul li a:hover {
+  box-shadow: none;
+}
+.welcome-section .welcome-wrapper center h1.bottom_heading {
+  color: #f306a3;
+  margin-top: 25px;
+  line-height: 61px;
+  font-weight: 500;
+  font-size: 45px;
+}
+.welcome-section .welcome-wrapper .setpoint {
+  margin-top: 40px;
+  width: 235px;
+  background: #010106;
+  border: 2px solid #ff06aa;
+  border-radius: 12px;
+}
+.welcome-section .welcome-wrapper .setpoint button {
+  border: 0;
+  background: #010106;
+  padding: 22px 30px;
+  border-radius: 12px;
+  color: white;
+}
+.welcome-section .welcome-wrapper center .mintbutton a.button_discord {
+  background: #ff06aa;
+  font-size: 20px;
+  border-radius: 55px;
+  color: white;
+  padding: 10px 53px;
+  margin-top: 37px;
+}
+.welcome-section .welcome-wrapper center .mintbutton a:hover {
+  box-shadow: 0 0 40px 0 rgb(255 0 191 / 97%);
+}
+.modal-title {
+  color: black;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+/*.....................mwc section.............................*/
+
+.mwc-section {
+  background: #18032b;
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+.mwc-section .mwc-wrapper center h1 {
+  line-height: 61px;
+  font-weight: 800;
+  font-size: 51px;
+  color: white;
+  font-family: "Syncopate", sans-serif;
+}
+.mwc-section .mwc-wrapper center hr {
+  background: #7165ff;
+  width: 167px;
+  height: 3px;
+  margin-top: -5px;
+}
+.mwc-section .mwc-wrapper h2 {
+  font-size: 1.9rem !important;
+  line-height: 2rem !important;
+  margin-top: 61px;
+  margin-bottom: 23px;
+}
+.mwc-section .mwc-wrapper p {
+  color: white;
+}
+.mwc-section .mwc-wrapper center img {
+  margin-top: 50px;
+}
+/*.....................reward section.............................*/
+
+.reward-section {
+  background: #1d1c54;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.reward-section .reward-wrapper center h1 {
+  line-height: 61px;
+  font-weight: 800;
+  font-size: 51px;
+  color: white;
+  font-family: "Syncopate", sans-serif;
+}
+.reward-section .reward-wrapper center hr {
+  background: #7165ff;
+  width: 167px;
+  height: 3px;
+  margin-top: -5px;
+}
+.reward-section .rewardsecond .imgboxwrap {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 17px 11px;
+  height: 100%;
+}
+.reward-section .rewardsecond .imgboxwrap center img {
+}
+.reward-section .rewardsecond .imgboxwrap center h3 {
+  font-size: 25px;
+}
+.reward-section .rewardsecond .imgboxwrap center p {
+  font-size: 1rem !important;
+  line-height: 1.5rem !important;
+  color: white;
+}
+/*.....................middleslider section.............................*/
+
+.middleslider-section {
+  background: #18032b;
+  padding-bottom: 60px;
+  padding-top: 150px;
+}
+.middleslider-section .middleslider-wrapper center h1 {
+  line-height: 61px;
+  font-weight: 800;
+  font-size: 51px;
+  color: white;
+  font-family: "Syncopate", sans-serif;
+}
+.middleslider-section .middleslider-wrapper center hr {
+  background: #7165ff;
+  width: 167px;
+  height: 3px;
+  margin-top: -5px;
+}
+.carousel-control-prev {
+  left: 0;
+  font-size: 59px;
+  font-weight: 500;
+  color: blue;
+  opacity: 1;
+}
+.carousel-control-prev:hover {
+  color: blue;
+}
+.carousel-control-next {
+  right: 0;
+  font-size: 59px;
+  font-weight: 500;
+  color: blue;
+  opacity: 1;
+}
+.carousel-control-next:hover {
+  color: blue;
+}
+.para-wrapper center p {
+  margin-top: 90px;
+  font-family: "Syncopate", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 28px;
+  color: white;
+}
+
+/*.....................roadmap section.............................*/
+
+.roadmap-section {
+  background: #18032b;
+  padding-bottom: 60px;
+  padding-top: 120px;
+}
+.roadmap-section .roadmap-wrapper center h1 {
+  line-height: 61px;
+  font-weight: 800;
+  font-size: 51px;
+  color: white;
+  font-family: "Syncopate", sans-serif;
+}
+.roadmap-section .roadmap-wrapper center hr {
+  background: #7165ff;
+  width: 167px;
+  height: 3px;
+  margin-top: -5px;
+}
+.orderlist {
+  margin-top: 50px;
+}
+.orderlist .element1 p {
+  margin-bottom: 0px;
+  color: blue;
+  font-family: "Poppins";
+  font-size: 17px;
+  background: #f5fbff;
+  padding: 26px 18px;
+  border-radius: 13px;
+  transform: rotate(45deg);
+  margin-right: 38px;
+}
+.orderlist .element2 p {
+  margin-bottom: 0px;
+  color: white;
+  font-family: "Poppins";
+  font-size: 17px;
+}
+.para-wrapper2 center p {
+  margin-top: 40px;
+  font-size: 17px;
+}
+/*.....................team section.............................*/
+
+.team-section {
+  background: #1d1c54;
+  padding-bottom: 40px;
+  padding-top: 60px;
+}
+.team-section .team-wrapper center h1 {
+  line-height: 61px;
+  font-weight: 800;
+  font-size: 51px;
+  color: white;
+  font-family: "Syncopate", sans-serif;
+}
+.team-section .team-wrapper center hr {
+  background: #7165ff;
+  width: 167px;
+  height: 3px;
+  margin-top: -5px;
+}
+.teaminformwrap center h2 {
+  font-size: 32px;
+}
+.teaminformwrap center h5 {
+  font-family: "Heebo", sans-serif;
+}
+/*.....................video section.............................*/
+
+.video-section {
+  background: #03031c;
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+.video-section .video-wrapper center h1 {
+  line-height: 61px;
+  font-weight: 800;
+  font-size: 51px;
+  color: white;
+  font-family: "Syncopate", sans-serif;
+}
+.video-section .video-wrapper center hr {
+  background: #7165ff;
+  width: 167px;
+  height: 3px;
+  margin-top: -5px;
+}
+.video-wrapper p {
+  color: white;
+  margin-bottom: 1px;
+}
+.video-section .video-wrapper .setpoint {
+  margin-top: 40px;
+  width: 240px;
+  background: #010106;
+  border: 2px solid #ff06aa;
+  border-radius: 12px;
+}
+.video-section .video-wrapper .setpoint button {
+  border: 0;
+  background: #010106;
+  padding: 22px 30px;
+  border-radius: 12px;
+  color: white;
+}
+/*.....................video section.............................*/
+
+.feature-section {
+  background: #03031c;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+.feature-section .feature-wrapper center h1 {
+  line-height: 61px;
+  font-weight: 800;
+  font-size: 51px;
+  color: white;
+  font-family: "Syncopate", sans-serif;
+}
+.feature-section .feature-wrapper center hr {
+  background: #7165ff;
+  width: 167px;
+  height: 3px;
+  margin-top: -5px;
+}
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition-duration: 0.6s;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right {
+  opacity: 1;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-right {
+  opacity: 0;
+}
+
+.carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-prev {
+  transform: translateX(0);
+  transform: translate3d(0, 0, 0);
+}
+/*.....................member section.............................*/
+
+.member-section {
+  background: #03031c;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+.member-section .member-wrapper center h1 {
+  line-height: 61px;
+  font-weight: 800;
+  font-size: 51px;
+  color: white;
+  font-family: "Syncopate", sans-serif;
+}
+.member-section .member-wrapper center hr {
+  background: #7165ff;
+  width: 167px;
+  height: 3px;
+  margin-top: -5px;
+}
+.member-section .member-wrapper center p {
+  color: white;
+}
+.member-section .member-wrapper center a.comingsoon {
+  background: #ff06aa;
+  font-size: 20px;
+  border-radius: 55px;
+  color: white;
+  padding: 8px 33px;
+  margin-top: 25px;
+}
+.member-section .member-wrapper center a.comingsoon:hover {
+  box-shadow: 0 0 40px 0 rgb(255 0 191 / 97%);
+}
+/*.....................faq section.............................*/
+
+.faq-section {
+  background: #18032b;
+  padding-top: 60px;
+  padding-bottom: 200px;
+}
+.faq-section .faq-wrapper center h1 {
+  line-height: 61px;
+  font-weight: 800;
+  font-size: 51px;
+  color: white;
+  font-family: "Syncopate", sans-serif;
+}
+.faq-section .faq-wrapper center hr {
+  background: #7165ff;
+  width: 167px;
+  height: 3px;
+  margin-top: -5px;
+}
+.card {
+  border: 0px;
+}
+.accordion > .card > .card-header {
+  border-radius: 7px;
+  margin-bottom: 13px;
+  background: #101027;
+  border: 1px solid hsla(0, 0%, 100%, 0.2);
+  box-sizing: border-box;
+}
+.card-header {
+  padding: 1.3rem 1.1rem;
+  margin-bottom: 0;
+  background-color: #101027;
+}
+.card {
+  background: #18032b;
+}
+.card-header h2 a {
+  font-family: "Poppins";
+  font-size: 18px;
+}
+.card-body {
+  border: 1px solid hsla(0, 0%, 100%, 0.2);
+  border-radius: 7px;
+}
+.card-body p {
+  color: white;
+  font-size: 16px;
+}
+/*.....................footer section.............................*/
+.footer-section {
+  background: #000;
+  padding: 27px 0px;
+}
+.copyright center span {
+  margin-bottom: 0px;
+  color: white;
+  font-size: 16px;
+}
+.footerLink center a {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 5px;
+}
+/*.....................header section.............................*/
+#scrollUp {
+  bottom: 130px;
+  font-size: 12px;
+  line-height: 22px;
+  right: 30px;
+  width: 100px;
+  background-color: transparent;
+  color: #222;
+  text-align: center;
+  height: 20px;
+  transition-duration: 500ms;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+}
+
+#scrollUp:before {
+  position: absolute;
+  width: 30%;
+  height: 2px;
+  background-color: #000;
+  content: "";
+  top: 10px;
+  right: 100%;
+  z-index: -200 !important;
+}
+
+/* ##### 2.0 Header Area CSS ##### */
+
+.header-area {
+  position: fixed;
+  z-index: 5000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition-duration: 500ms;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.sticky {
+  transition-duration: 500ms;
+  background-color: #03031c;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+  border-bottom: none;
+}
+
+/* ##### 3.0 custom header design css ##### */
+.mainLogo {
+  width: 62px;
+}
+.navbar {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.nav-link {
+  font-size: 12px;
+  color: #e5e7eb;
+  font-family: "Syncopate", sans-serif;
+}
+.nav-link:hover {
+  color: white;
+  background: #ff06aa;
+  border-radius: 15px;
+}
+.navbar-brand span {
+  color: white;
+  font-size: 23px;
+}
+.navbar-brand span:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+.nav-right a {
+  border: 2px solid #fd9535;
+  border-radius: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  margin-left: 8px;
+  background: #fd9535;
+  color: white;
+}
+/*.....................End css file.............................*/

@@ -1,0 +1,307 @@
+/* Large Version */
+
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 1125px) {
+  .social-icon-slider {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .fixed-slider-section .fixed-slider-wrapper h1 {
+    margin-top: 170px;
+    line-height: 62px;
+    font-weight: 800;
+    font-size: 62px;
+    color: white;
+    font-family: "Syncopate", sans-serif;
+  }
+  .fixed_button_wrap {
+    width: 39%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+  }
+  .fixed-slider-section {
+    height: 550px;
+  }
+  .welcome-section .welcome-wrapper center h1 {
+    font-size: 44px;
+  }
+  .mwc-section .mwc-wrapper center h1 {
+    font-size: 45px;
+  }
+  .mwc-section .mwc-wrapper h2 {
+    font-size: 1.7rem !important;
+  }
+  .reward-section .reward-wrapper center h1 {
+    font-size: 42px;
+  }
+  .roadmap-section .roadmap-wrapper center h1 {
+    font-size: 42px;
+  }
+  .team-section .team-wrapper center h1 {
+    font-size: 42px;
+  }
+  .video-section .video-wrapper center h1 {
+    font-size: 42px;
+  }
+  .feature-section .feature-wrapper center h1 {
+    font-size: 42px;
+  }
+  .member-section .member-wrapper center h1 {
+    font-size: 42px;
+  }
+  .faq-section .faq-wrapper center h1 {
+    font-size: 42px;
+  }
+  .carousel-control-prev {
+    font-size: 39px;
+  }
+  .carousel-control-next {
+    font-size: 39px;
+  }
+  .middleslider-section .middleslider-wrapper center h1 {
+    font-size: 42px;
+  }
+  .para-wrapper center p {
+    margin-top: 70px;
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .middleslider-section {
+    background: #18032b;
+    padding-bottom: 90px;
+  }
+  .social-icon-slider {
+    display: none;
+  }
+  .nav-right .connect {
+    margin-left: -2px;
+    margin-bottom: 15px;
+  }
+}
+
+/* Mobile Version */
+
+@media only screen and (max-width: 767px) {
+  .fixed-slider-section .fixed-slider-wrapper h1 {
+    margin-top: 150px;
+    line-height: 48px;
+    font-weight: 800;
+    font-size: 45px;
+    color: white;
+    font-family: "Syncopate", sans-serif;
+  }
+  .fixed_button_wrap {
+    width: 53%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+  }
+  .fixed-slider-section {
+    height: 450px;
+  }
+  .welcome-section .welcome-wrapper center h1 {
+    font-size: 30px;
+    line-height: 44px;
+  }
+  .mwc-section .mwc-wrapper center h1 {
+    font-size: 35px;
+  }
+  .mwc-section .mwc-wrapper center hr {
+    width: 120px;
+  }
+  .mwc-section .mwc-wrapper h2 {
+    font-size: 1.5rem !important;
+  }
+  .mwc-section {
+    padding-top: 20px;
+    padding-bottom: 80px;
+  }
+  .welcome-section {
+    padding-bottom: 70px;
+  }
+  .reward-section .reward-wrapper center h1 {
+    font-size: 33px;
+  }
+  .carousel-control-prev {
+    font-size: 39px;
+  }
+  .carousel-control-next {
+    font-size: 39px;
+  }
+  .middleslider-section .middleslider-wrapper center h1 {
+    font-size: 33px;
+  }
+  .para-wrapper center p {
+    margin-top: 50px;
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .roadmap-section .roadmap-wrapper center h1 {
+    font-size: 33px;
+  }
+  .team-section .team-wrapper center h1 {
+    font-size: 33px;
+  }
+  .video-section .video-wrapper center h1 {
+    font-size: 33px;
+  }
+  .feature-section .feature-wrapper center h1 {
+    font-size: 33px;
+  }
+  .member-section .member-wrapper center h1 {
+    font-size: 33px;
+  }
+  .faq-section .member-wrapper center h1 {
+    font-size: 33px;
+  }
+  .middleslider-section {
+    background: #18032b;
+    padding-bottom: 60px;
+  }
+  .teaminformwrap center h2 {
+    font-size: 30px;
+  }
+  .faq-section {
+    background: #18032b;
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+  .card-header h2 a {
+    font-size: 14px;
+  }
+  .card-body p {
+    font-size: 15px;
+  }
+  .accordion > .card > .card-header {
+    padding-left: 0px;
+    padding-right: 3px;
+  }
+  .social-icon-slider {
+    display: none;
+  }
+  .nav-right .connect {
+    margin-left: -2px;
+    margin-bottom: 15px;
+  }
+  .orderlist .element1 p {
+    padding: 16px;
+  }
+  .orderlist .element2 p {
+    font-size: 16px;
+  }
+  .footerLink center a,
+  .copyright center span {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 536px) {
+  .fixed-slider-section .fixed-slider-wrapper h1 {
+    margin-top: 130px;
+    line-height: 44px;
+    font-weight: 800;
+    font-size: 35px;
+    color: white;
+    font-family: "Syncopate", sans-serif;
+  }
+  .fixed_button_wrap {
+    width: 61%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+  }
+  .fixed-slider-section {
+    height: 430px;
+  }
+  .welcome-section .welcome-wrapper center h1 {
+    font-size: 32px;
+  }
+  .faq-section {
+    background: #18032b;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  .social-icon-slider {
+    display: none;
+  }
+  .card-header h2 a {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .fixed-slider-section .fixed-slider-wrapper h1 {
+    margin-top: 130px;
+    line-height: 44px;
+    font-weight: 800;
+    font-size: 35px;
+    color: white;
+    font-family: "Syncopate", sans-serif;
+  }
+  .fixed_button_wrap {
+    width: 73%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+  }
+  .fixed-slider-section {
+    height: 430px;
+  }
+  .social-icon-slider {
+    display: none;
+  }
+  .card-header h2 a {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  .fixed-slider-section .fixed-slider-wrapper h1 {
+    margin-top: 118px;
+    line-height: 44px;
+    font-weight: 800;
+    font-size: 35px;
+    color: white;
+    font-family: "Syncopate", sans-serif;
+  }
+  .button_discord {
+    background: #ff06aa;
+    font-size: 17px;
+    border-radius: 55px;
+    color: white;
+    padding: 8px 16px;
+    margin-right: 10px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .button_discord2 {
+    background: #ff06aa;
+    font-size: 17px;
+    border-radius: 55px;
+    color: white;
+    padding: 8px 16px;
+    display: block;
+  }
+  .fixed-slider-section {
+    height: 430px;
+  }
+  .welcome-section .welcome-wrapper center h1 {
+    font-size: 30px;
+  }
+  .faq-section {
+    background: #18032b;
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+  .social-icon-slider {
+    display: none;
+  }
+  .card-header h2 a {
+    font-size: 13px;
+  }
+}
+/*.....................responsive css file.............................*/
